@@ -1,0 +1,96 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    background-color: azure;
+    text-align: center;
+}
+
+h1
+{
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: rgb(226, 44, 68);
+}
+
+.options
+{
+    margin-bottom: 40px;
+}
+
+.options button
+{
+    height: 150px;
+    width: 150px;
+    font-size: 70px;
+    margin: 20px 45px;
+    border-radius: 100px;
+    transition: transform 0.3s;
+    background-color: rgb(148, 234, 206);
+}
+
+.options button:hover
+{
+    transform: scale(0.95);
+    cursor: pointer;
+}
+
+#showPlayerChoice, #showComputerChoice
+{
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+
+.score
+{
+    margin-top: 40px;
+    font-size: 22px;
+}
+
+#playerScore{
+    margin-right: 70px;
+    color: rgb(101, 1, 196);
+    font-weight: bolder
+}
+
+#computerScore{
+    color:crimson;
+    font-weight: bolder;
+}
+
+#showResult
+{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.greenText{
+    color: rgb(120, 184, 26);
+}
+
+.redText{
+    color: red;
+}
+
+
+.newgame{
+    margin-top: 50px;
+}
+
+.newgame button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.newgame button:hover {
+    background-color: #45a049;
+}
